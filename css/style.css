@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Regular.ttf");
-    src: url("/fonts/OpenSans-Regular.woff");
-    src: url("/fonts/OpenSans-Regular.woff2");
+    src: url("../fonts/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Regular.woff");
+    src: url("../fonts/OpenSans-Regular.woff2");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Open Sans";
-    src: url("/fonts/OpenSans-Bold.ttf");
-    src: url("/fonts/OpenSans-Bold.woff");
-    src: url("/fonts/OpenSans-Bold.woff2");
+    src: url("../fonts/OpenSans-Bold.ttf");
+    src: url("../fonts/OpenSans-Bold.woff");
+    src: url("../fonts/OpenSans-Bold.woff2");
     font-weight: bold;
     font-style: normal;
 }
@@ -22,20 +22,18 @@ body, input, select, option, textarea {
 
 .header {
     position: relative;
-    z-index: 0;
     max-width: 1660px;
     height: 450px;
     margin-left: auto;
     margin-right: auto;
     background-color: #000000;
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container {   
-    z-index: 0;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -49,7 +47,6 @@ body, input, select, option, textarea {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -380,7 +377,7 @@ body, input, select, option, textarea {
     margin-top: 59px;
     margin-left: -48px;    
     background-color: #b59f5b;
-    background-image: url("/svg/search.svg");
+    background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: 16px;
@@ -735,7 +732,7 @@ body, input, select, option, textarea {
     right: -2px;   
     width: 18px; 
     height: 18px;
-    background-image: url(/svg/form-x.svg);
+    background-image: url("../svg/form-x.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center;
@@ -784,7 +781,7 @@ body, input, select, option, textarea {
     padding-left: 19px;
     border: none;
     background-color: #f3f7f5;
-    background-image: url("/svg/form-arrows.svg");
+    background-image: url("../svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: right 12px center;
@@ -828,13 +825,13 @@ body, input, select, option, textarea {
     left: -21px;
     width: 18px;
     height: 18px;
-    background-image: url(/svg/form-empty-circle.svg);
+    background-image: url("../svg/form-empty-circle.svg");
     background-repeat: no-repeat;
     background-size: 17px; 
 }
 
 .popup__radio-contol:checked + .popup__radio-text::before {
-    background-image: url(/svg/form-circle.svg);
+    background-image: url("../svg/form-circle.svg");
 }
 
 .popup__question-bottom {
